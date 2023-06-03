@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>apexautomotives Home Page</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="Collabrate.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <link rel="stylesheet" type="text/css" href="style2.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <style>
+        /* Define the animation */
+        @keyframes slideIn {
+            0% {
+                opacity: 0;
+                transform: translateX(100%);
+            }
+            100% {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+        
+        /* Apply the animation to the page content */
+        .page-content {
+            animation: slideIn 0.5s ease-in-out;
+        }
+        
+        /* Style the links */
+        a {
+            color: #333333;
+            text-decoration: none;
+            transition: color 0.3s ease-in-out;
+        }
+        
+        /* Change the link color on hover */
+        a:hover {
+            color: #FF0000;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled">Disabled</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+
+    <header>
+        <nav>
+            <ul>
+                <li class="blow-up"><a href="service.html">Services</a></li>
+                <li class="blow-up"><a href="#">Discover</a></li>
+                <li class="blow-up"><a href="aboutpage.html">About Us</a></li>
+                <li class="blow-up"><a href="https://us8.list-manage.com/contact-form?u=698e0b6a784052e2bdf52f400&form_id=10f7ee2609c242e8e5365d70bc7a2f5c
+
+">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="overlay"></div>
+        <div class="content">
+            <h1 class="animate__animated animate__fadeInTopRight">Automotive Solutions</h1>
+            <p class="animate__animated animate__fadeInTopLeft">Experience the ultimate joy of Innovations with APEX.</p>
+        </div>
+    </section>
+    <div>
+    <section class="test-center col-12">
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Collaborate With Us..
+</button>
+</section>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Welcome!</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+
+    <h2>Registration Form</h2>
+    <form action="#" method="POST">
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+
+
+        <div class="form-group">
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required>
+        </div>
+
+
+        
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="submit" class="btn btn-primary">Register</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <section class="features">
+        <div class="feature">
+            <img src="image.jpg" alt="Feature 1">
+            <h2 class="animate__animated animate__lightSpeedInRight">Innovation in Electric Mobility</h2>
+            <p> APEX has spearheaded the development of advanced electric vehicle technologies, setting new benchmarks for energy efficiency, range, and charging infrastructure. By leveraging breakthroughs in battery technology, APEX has created electric vehicles that offer exceptional performance and contribute significantly to reducing carbon emissions.</p>
+        </div>
+        <div class="feature">
+            <img src="image1.jpg" alt="Feature 2">
+            <h2 class="animate__animated animate__lightSpeedInLeft">Autonomous Driving Systems</h2>
+            <p>APEX Automotives has revolutionized the concept of autonomous driving, introducing state-of-the-art systems that combine artificial intelligence, computer vision, and sensor technology. These systems enable vehicles to navigate complex environments, enhancing safety, efficiency, and convenience for drivers and passengers alike.</p>
+        </div>
+        <div class="feature">
+            <img src="image2.jpg" alt="Feature 3">
+            <h2 class="animate__animated animate__lightSpeedInRight">Sustainable Manufacturing Practices</h2>
+            <p>APEX Automotives is committed to sustainable manufacturing processes that minimize environmental impact. The company employs innovative techniques to reduce waste, optimize resource usage, and implement eco-friendly materials, ensuring a greener future for the automotive industry.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 APEX Automotives. All rights reserved.</p><br>
+        Contact Us: <a href="https://mail.google.com/mail/?view=cm&fs=1&to=support@apexautomotives.com">support@apexautomotives.com</a>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</html>
